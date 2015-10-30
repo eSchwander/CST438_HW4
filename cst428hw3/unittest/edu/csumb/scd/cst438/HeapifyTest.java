@@ -4,12 +4,14 @@ import static org.junit.Assert.*;
 
 import java.util.Arrays;
 
+import java.util.List;
+
 import org.junit.Test;
 
 import edu.csumb.scd.cst438.Heap;
 
 public class HeapifyTest {
-
+	
 	@Test
 	public void testAscending() {
 		assertEquals(Arrays.asList(5,4,3,1,2).toString(), new Heap(Arrays.asList(1,2,3,4,5)).toString());
